@@ -9,10 +9,9 @@
 
  }
 
- a {
-    text-decoration: none;
-    display: inline-block;
- }
+a {
+   text-decoration: none !important;;
+}
  
 :root {
    --color-131921: #131921;
@@ -62,7 +61,6 @@
    font-weight: 400;
    letter-spacing: 0.3;
    text-transform: uppercase;
-   text-decoration: none;
 }
 
 .gap-15 {
