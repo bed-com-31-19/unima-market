@@ -18,6 +18,9 @@ a {
    --color-ededed: #ededed;
 
 }
+.home-wrapper-1, .home-wrapper-2 {
+    background-color: #eaeded;
+}
 
 .main-banner-content {
     top: 10%;
@@ -102,6 +105,9 @@ a {
     color: var(--color-131921);
 }
 .wrap {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
     box-shadow: 0 0 10px var(--color-0000001a);
 
 }
@@ -148,4 +154,46 @@ a {
     line-height: 32px;
     font-weight: 500;
     margin-bottom: 30px;
+}
+
+
+.famous-card {
+    background-color: #fff;
+    padding: 30px;
+    min-height: 450px;
+    border-radius: 10px;
+}
+
+.famous-card img {
+    padding-top: 12em;
+    border-radius: 10px;
+}
+
+.famous-card .famous-content {
+    top: 5%;
+    left: 5%;
+}
+
+.famous-content  h5{
+    font-size: 13px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+
+}
+.famous-content  h6{
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    line-height: 38px;
+    
+}
+
+.famous-content  p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #000000;
+
 }

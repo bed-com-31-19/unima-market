@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 import "./Home.scss";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import BlogCard from '../components/BlogCard';
-import ProductCard from '../components/ProductCard';
-import SpecialProduct from '../components/SpecialProduct';
-
+import BlogCard from "../components/BlogCard";
+import ProductCard from "../components/ProductCard";
+import SpecialProduct from "../components/SpecialProduct";
 
 const Home = () => {
   return (
@@ -209,6 +208,68 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="famous-wrapper home-wrapper-2">
+        <div className="container-xxl famous">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-10.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From MWK3,999 or MWK1,662/mo. for 24 mon.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-10.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From MWK3,999 or MWK1,662/mo. for 24 mon.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-10.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From MWK3,999 or MWK1,662/mo. for 24 mon.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-10.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From MWK3,999 or MWK1,662/mo. for 24 mon.*</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="special-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
@@ -288,6 +349,6 @@ const Home = () => {
       </section>
     </>
   );
-}
+};
 
 export default Home;
